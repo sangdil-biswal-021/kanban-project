@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    font-size: 16px;
+    font-weight: semi-bold;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-inline: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+.block{
+    display: block;
+    font-size: 16px;
+    font-weight: semi-bold;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-inline: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid blue; */
+    padding-inline: 10px;
+    gap: 5px;
+}
+.icons{
+    padding: 2px;
+    margin-inline: 2px;
+}
+.head{
+    display: flex;
+   /* padding: 2px; */
+   gap: 10px;
+  
+    
+}
+.counts{
+    color: rgb(67, 67, 67);
+}

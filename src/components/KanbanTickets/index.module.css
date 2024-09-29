@@ -1,0 +1,98 @@
+.ticket {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 12px;
+    margin: 10px;
+    margin-left: 10px;
+    position: relative;
+    width: 300px;
+    
+    /* height: 15vh; */
+  }
+  
+  .ticketHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: .75rem;
+  }
+  
+  .ticketId {
+    font-weight: 600;
+    font-size: .75rem;
+    color: #555555e7;
+  }
+  
+  .userAvatar {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+  }
+  
+  .ticketContent {
+    display: flex; 
+    align-items: center; 
+    /* margin-bottom: 8px; */
+  }
+  
+  .statusIcon {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 10px; 
+  }
+  
+  .ticketTitleContainer { /* Added a container for the title */
+    display: inline-block; 
+    max-width: 280px;    
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    text-overflow: ellipsis; 
+  }
+  
+  .ticketTitle {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0; 
+  }
+  
+  .ticketFooter {
+    display: flex;
+    align-items: center; 
+    position: absolute;
+    bottom: 15px;
+  }
+  
+  .priorityContainer {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .priorityIcon {
+    width: 1.2rem;
+    height: 1rem;
+    margin-right: 8px;
+  }
+  
+  .ticketTag {
+    background-color: #f2f2f2;
+    color: #555;
+    font-size: .65rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    /* margin-right: 8px; */
+  }
+  
+  .secondLine{
+    display: flex;
+    margin-bottom: 1.5rem;
+    align-items:start;
+
+  }
+  .userImage{
+   
+    position: absolute;
+    right: 5px;
+    top: 5px;
+  }
+  
